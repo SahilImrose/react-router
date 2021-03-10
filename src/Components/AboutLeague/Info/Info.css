@@ -1,0 +1,57 @@
+.info1 {
+    position: relative;
+    top: -300px;
+    margin: 5%;
+    background-image: linear-gradient(135deg, red, orangered, orange, yellow);
+    padding: 30px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.info2 {
+    display: flex;
+}
+
+.detail {
+    position: relative;
+    top: 280000px;
+}
+
+.social {
+    font-size: 60px;
+}
+
+.yt {
+    color: #ff0000;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.fb {
+    color: blue;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.tw {
+    color: #1DA1F2;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.yt:hover {
+    opacity: 0.5;
+}
+
+.fb:hover {
+    opacity: 0.5;
+}
+
+.tw:hover {
+    opacity: 0.5;
+}
+
+.genderimg {
+    height: 200px;
+    width: auto;
+}
