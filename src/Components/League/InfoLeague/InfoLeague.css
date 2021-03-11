@@ -1,16 +1,4 @@
 #card:hover{
-
-
-    transform: rotateX(0deg) rotateY(360deg)rotateZ(0deg);;
-    transition: transform 2s ease-in-out 0s;
-    background-color: rgb(128, 0, 0);
-    color: rgb(255, 255, 255);
-    -webkit-transform: rotateX(-0deg) rotateY(-720deg)rotateZ(-0deg);
-    -webkit-transition: transform 2s ease-in-out 0s;
-    -o-transform: rotateX(-0deg) rotateY(-720deg)rotateZ(-0deg);
-    -o-transition: transform 2s ease-in-out 0s;
-    -ms-transform: rotateX(-0deg) rotateY(-720deg)rotateZ(-0deg);
-    -ms-transition: transform 2s ease-in-out 0s;
-    -moz-transform: rotateX(-0deg) rotateY(-720deg)rotateZ(-0deg);
-    -moz-transition: transform 2s ease-in-out 0s;
+    color: cornsilk;
+    background-color: brown;
 }
