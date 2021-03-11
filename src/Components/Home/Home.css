@@ -13,5 +13,5 @@
 .awesome:active{
     background-color: blue;
     transform: rotateX(180deg) rotateY(180deg)rotateZ(180deg);
-    transition: transform 0.1s ease-in-out 0s;
+    transition: transform 1s ease-in-out 0s;
 }
