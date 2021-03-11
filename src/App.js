@@ -8,11 +8,12 @@ import {
 import Home from './Components/Home/Home';
 import NoMacth from './Components/NoMatch/NoMacth';
 import AboutLeague from './Components/AboutLeague/AboutLeague';
+import Header from './Components/Header/Header';
 
 function App() {
   return (
     <div>
-      
+      <Header></Header>
       <Router>
         <Switch>
           <Route exact path="/"><Home></Home></Route>
