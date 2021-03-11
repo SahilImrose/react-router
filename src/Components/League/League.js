@@ -7,6 +7,9 @@ import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { Link } from 'react-router-dom';
+import './League.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 const useStyles = makeStyles({
     root: {
       maxWidth: 345,
@@ -25,7 +28,7 @@ const League = () => {
   }, []);
     const classes = useStyles();
     return (
-        <div style={{display:'grid', gridTemplateColumns:'repeat(3, 1fr)'}}>
+        <div className="div">
       {
         league.map(league => <Card className={classes.root}>
           <CardActionArea>
@@ -39,9 +42,9 @@ const League = () => {
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Link to={`/aboutLeague/${league.idLeague}`}>
-            <Button size="small" color="primary">
-              Learn More
+            <Link style={{textDecoration:'none'}} to={`/aboutLeague/${league.idLeague}`}>
+            <Button variant="contained" size="small" color="primary">              
+              Learn More                              <FontAwesomeIcon icon={faArrowRight}/>
             </Button></Link>
           </CardActions>
         </Card>)

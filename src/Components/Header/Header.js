@@ -1,11 +1,11 @@
 import React from 'react';
 import banner from './banner.svg';
-
+import './Header.css';
 const Header = () => {
 
     return (
-        <header>
-            <img src={banner} alt=""/>                       
+        <header className="header">
+            <img className="image" src={banner} alt=""/>
         </header>
     );
 };
