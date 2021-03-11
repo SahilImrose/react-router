@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import Header from '../Header/Header';
 import Image from './Image/Image';
 import Info from './Info/Info';
 import'./AboutLeague.css';
@@ -16,7 +15,6 @@ const AboutLeague = () => {
     }, [])
     return (
         <div>
-            <Header></Header>
             <div>
             {
                 detail.map(detail =><div><Image detail={detail}></Image> <div><Info detail={detail}></Info></div></div>)

@@ -1,0 +1,16 @@
+#card:hover{
+
+
+    transform: rotateX(180deg) rotateY(180deg)rotateZ(180deg);;
+    transition: transform 2s ease-in-out 0s;
+    background-color: rgb(128, 0, 0);
+    color: rgb(255, 255, 255);
+    -webkit-transform: rotateX(-180deg) rotateY(-180deg)rotateZ(-180deg);
+    -webkit-transition: transform 2s ease-in-out 0s;
+    -o-transform: rotateX(-180deg) rotateY(-180deg)rotateZ(-180deg);
+    -o-transition: transform 2s ease-in-out 0s;
+    -ms-transform: rotateX(-180deg) rotateY(-180deg)rotateZ(-180deg);
+    -ms-transition: transform 2s ease-in-out 0s;
+    -moz-transform: rotateX(-180deg) rotateY(-180deg)rotateZ(-180deg);
+    -moz-transition: transform 2s ease-in-out 0s;
+}

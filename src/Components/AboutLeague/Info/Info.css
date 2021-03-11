@@ -1,22 +1,35 @@
 .info1 {
-    position: relative;
-    top: -300px;
-    margin: 5%;
     background-image: linear-gradient(135deg, red, orangered, orange, yellow);
-    padding: 30px;
     border-radius: 20px;
     color: #fff;
+    padding: 30px;
 }
-
-.info2 {
-    display: flex;
-}
-
-.detail {
+.info{
     position: relative;
-    top: 280000px;
+    top: -300px;
 }
-
+@media(max-width:770px){
+    .info2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .info2 img{
+        
+        height: 150px;
+        width: auto;
+    }
+}
+@media(max-width:320px){
+    .info2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .info2 img{
+        
+        height: 125px;
+        width: auto;
+    }
+}
 .social {
     font-size: 60px;
 }
@@ -51,7 +64,23 @@
     opacity: 0.5;
 }
 
-.genderimg {
+.Gender {
+    padding-top: 10px;
     height: 200px;
+    width: auto;
+}
+#badge{
+    position: relative;
+    bottom: 300px;
+    align-items: center;
+    display: flex;
+    height: 320px;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-image: url("banner.svg");
+}
+
+#badge img{
+    height: 300px;
     width: auto;
 }

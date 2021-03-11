@@ -1,5 +1,16 @@
 .div{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 5%;
+}
+@media(max-width: 1024px){
+    .div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+}
+@media(max-width: 425px){
+    .div{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
 }

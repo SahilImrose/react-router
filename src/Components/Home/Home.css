@@ -1,0 +1,17 @@
+#bgImg {
+    background-image: url("banner.svg");
+    text-align: center;
+    height: 360px;
+    color: #000;
+    background-repeat: no-repeat;
+    opacity: 9;
+    align-items: center;
+    font-family: 'Kaushan Script', cursive;
+    display: flex;
+    justify-content: center;
+}
+.awesome{
+    background-color: blue;
+    transform: rotateX(180deg) rotateY(180deg)rotateZ(180deg);
+    transition: transform 2s ease-in-out 0s;
+}
